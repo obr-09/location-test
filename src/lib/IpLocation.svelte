@@ -74,12 +74,13 @@
 }
 
 .ip-button {
-  margin: 0 auto 8px auto;
-  width: 250px;
+  margin: 16px auto 8px auto;
+  width: 100%;
 }
 
 .warning {
   height: 50px;
+  padding: 0;
   list-style: none;
   color: orange;
 }

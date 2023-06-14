@@ -68,7 +68,7 @@
 
 .navigator-button {
   margin: 0 auto 8px auto;
-  width: 250px;
+  width: 100%;
 }
 
 .warning {
