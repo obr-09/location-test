@@ -42,9 +42,10 @@
 </script>
 
 <div class="ip-location">
-  <p class="warning">
-    Warning: API <a href="https://ipinfo.io/loc" target="_blank" rel="noopener noreferrer">https://ipinfo.io/loc</a> is rate limited
-  </p>
+  <ul class="warning">
+    <li>API <a href="https://ipinfo.io/loc" target="_blank" rel="noopener noreferrer">https://ipinfo.io/loc</a> is rate limited</li>
+    <li>Ad blockers may prevent this call</li>
+  </ul>
 
   <button on:click={getLocation} disabled={loading} class="ip-button">
     Get IP location
@@ -79,6 +80,7 @@
 
 .warning {
   height: 50px;
+  list-style: none;
   color: orange;
 }
 
