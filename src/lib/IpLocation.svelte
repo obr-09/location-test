@@ -11,7 +11,7 @@
     error = null;
     position = null;
     loading = true;
-    fetch('https://ipinfo.io/loc', { mode: 'no-cors', })
+    fetch('https://ipinfo.io/loc', { method: 'GET', })
       .then((response) => {
         handleApiResponse(response);
       })
